@@ -15,7 +15,8 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-console.log('Hello World from Webpacker')
-import "@hotwired/turbo-rails"
-import "controllers"
+import jquery from "jquery"
+window.$ = window.jQuery = jquery
 import * as bootstrap from "bootstrap"
+window.bootstrap = bootstrap
+import "../stylesheets/application"
