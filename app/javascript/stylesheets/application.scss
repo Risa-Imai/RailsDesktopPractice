@@ -1,2 +1,25 @@
 @import "~bootstrap/scss/bootstrap";
 @import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+.toppage_wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.toppage_left {
+  width: 55%;
+  background-color: yellow;
+}
+
+.top_circle1 {
+  background: linear-gradient(yellow);
+  width: 100px;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.toppage_right {
+  width: 45%;
+  height: 100%;
+  background-color: #000;
+}
