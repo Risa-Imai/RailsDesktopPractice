@@ -15,10 +15,9 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-import "channels"
-
-import "jquery"
-import "popper.js"
-import "bootstrap"
+import jquery from "jquery"
+window.$ = window.jQuery = jquery
+import * as bootstrap from "bootstrap"
+window.bootstrap = bootstrap
 import "../stylesheets/application"
-import "@fortawesome/fontawesome-free/js/all"
+import '@fortawesome/fontawesome-free/js/all'
